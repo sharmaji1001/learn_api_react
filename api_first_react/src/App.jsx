@@ -29,7 +29,7 @@ function App() {
       {/* <h1>First react api working</h1> */}
       <div className="card">
         
-        <button onClick={getJoke}>{count===0 ? "Get Joke right now, I mean right now,":"Next"}</button>
+        <button onClick={getJoke}>{count===0 ? "Get a Joke right now, I mean right now,":"Next"}</button>
         {setup && <h1 style={{marginTop:'1rem', color:"#646cff"}}>{setup}</h1>}
         {punchline && (<h2 style={{marginTop:'.5rem',fontWeight:600}}>{punchline}</h2>)}  
         
